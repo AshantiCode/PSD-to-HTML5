@@ -43,8 +43,12 @@ body {
 }
 .container {
     max-width: 1100px;
+    width: 100%;
+    position: relative;
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    padding: 40px 20px;
 }
 
 /* HERO SECTION */
@@ -56,7 +60,7 @@ body {
 }
 
 .logo-img {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 .navbar {
@@ -64,7 +68,7 @@ body {
     list-style: none;
     justify-content: flex-end;
     padding-left: 0;
-    margin-top: 23px;
+    /* margin-top: 23px; */
 }
 
 .navbar :first-child {
@@ -90,7 +94,7 @@ body {
 .cta-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .cta-info {
@@ -100,6 +104,7 @@ body {
 .hero-heading {
     font-size: 3.25rem;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .hero-para {
@@ -113,24 +118,25 @@ body {
 
 .iphone {
     width: 25.75rem;
+    /* width: 85%; */
+    position: relative;
+    margin-bottom: -240px;
 }
 
 .cta-button {
     background-color: #353535;
-
-    -moz-border-radius: 28px;
-    -webkit-border-radius: 28px;
-    border-radius: 28px;
-    border: 1px solid #353535;
+    color: #fff;
+    padding: 7px 42px;
     display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Helvetica;
-    font-size: 17px;
-    padding: 16px 31px;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #2f6627;
+    border-radius: 50px;
 }
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
 .cta-button:hover {
     background-color: #585555;
 }
