@@ -154,3 +154,46 @@ h2 {
 }
 
 /* APP-FEATURES-SECTION */
+#features {
+    height: 100vh;
+}
+.features-heading {
+    font-size: 3.25rem;
+    text-align: center;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    color: #9c9c9c;
+}
+
+.feature {
+    padding: 1.2rem 0;
+}
+
+.features-para {
+    width: 80%;
+    /* text-align: center; */
+    line-height: 1.25;
+    margin: 0 auto;
+}
+
+.feature-para {
+    padding: 0.1rem 1.5rem;
+    color: #9c9c9c;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    /* border: 1px solid blue; */
+}
+.column {
+    /* display: flex;
+    flex-direction: column;
+    flex: 1; */
+    text-align: center;
+    width: 31%;
+    /* border: 1px solid green; */
+    /* margin-right: 30px; */
+}
