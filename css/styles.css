@@ -207,8 +207,9 @@ h2 {
     width: 100vw;
 }
 .download-heading {
-    font-size: 3.25rem;
+    font-size: 3rem;
     color: #fd6b63;
+    margin-top: 3.75rem;
 }
 span {
     color: #fff;
@@ -217,7 +218,8 @@ span {
 .download-para {
     font-size: 1.5rem;
     line-height: 1.5;
-    padding: 3rem 10rem 5rem 0;
+    padding: 2rem 10rem 3rem 0;
+
     font-weight: 300;
     color: #585555;
 }
@@ -236,10 +238,45 @@ span {
     display: inline-block;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .download-btn:hover {
     background-color: #fd6b63;
-
+    cursor: pointer;
     transform: scale(1.1);
+}
+
+/* SECTION FOOTER */
+
+#footer {
+    height: 70vh;
+    background-color: #353535;
+    color: #fff;
+}
+
+.footer-logo {
+    padding: 2.3rem;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-column {
+    width: 30%;
+}
+.footer-column h3 {
+    padding-bottom: 2rem;
+}
+
+.posts {
+    display: flex;
+    width: 60%;
+    margin-bottom: 1.75rem;
+}
+
+.posts img {
+    margin-right: 1rem;
 }
