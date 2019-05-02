@@ -280,3 +280,32 @@ span {
 .posts img {
     margin-right: 1rem;
 }
+
+/* COPYRIGHT SECTION */
+#copyright {
+    background-color: #d7dedc;
+}
+
+#copyright .container {
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+.copyright,
+.me,
+.fb,
+.dr {
+    margin-right: 2rem;
+}
+
+.copyright:after,
+.me:after {
+    content: '';
+    border: 1px solid #555;
+    margin-left: 2.1rem;
+}
