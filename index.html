@@ -50,11 +50,12 @@
                         >
                     </div>
 
-                    <div class="imgs js-waypoint">
+                    <div class="imgs js-wp-2">
                         <img src="img/iphone-off.png" alt="An Iphone"  class="iphone" />
-                        <img src="img/iphone-on.png" alt="Iphone Screen" class="iphone-on">
+                        <img src="img/iphone-on.png" alt="Iphone Screen" class="iphone-on js-wp-3">
                         <img src="img/iphone-btn.png"  alt="iphone Button" class="iphone-btn">
                     </div>
+
                 </div>
             </div>
             <!--closes container-->
@@ -70,7 +71,7 @@
                 </p>
 
                 <div class="row">
-                    <div class="column">
+                    <div class="column wow fadeInLeft" data-wow-offset="30">
                         <img src="./img/scalable.png" alt="Scalable Image" />
                         <h2 class="feature">Scalable</h2>
                         <p class="feature-para">
@@ -79,7 +80,7 @@
                         </p>
                     </div>
 
-                    <div class="column">
+                    <div class='column wow fadeIn' data-wow-delay="2">
                         <img src="./img/instant.png" alt="Instant Image" />
                         <h2 class="feature">Instant</h2>
                         <p class="feature-para">
@@ -88,7 +89,7 @@
                         </p>
                     </div>
 
-                    <div class="column">
+                    <div class="column wow fadeInRight">
                         <img src="./img/something.png" alt="Something Image" />
                         <h2 class="feature">Something</h2>
                         <p class="feature-para">
@@ -104,14 +105,14 @@
 
         <section id="download">
             <div class="container download-column">
-                <h2 class="download-heading">
+                <h2 class="download-heading wow fadeInLeft" >
                     Chocolate <span>pudding dessert jelly</span>fruit cake tart jelly wa<span>fer</span>.
                 </h2>
-                <p class="download-para">
+                <p class="download-para wow fadeInLeft" data-wow-delay=".5s">
                     Donut cupcake lemon drops dragée liquorice apple pie powder. Topping sweet lollipop soufflé
                     chocolate liquorice candy canes.
                 </p>
-                <a href="#" class="download-btn">Download</a>
+                <a href="#" class="download-btn wow fadeInLeft" data-wow-delay=".8s">Download</a>
             </div>
         </section>
 
@@ -176,6 +177,8 @@
             integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
             crossorigin="anonymous"
         ></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

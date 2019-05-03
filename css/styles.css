@@ -123,7 +123,7 @@ h2 {
 
 .imgs {
     /* width: 374px; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     position: absolute;
     right: 1rem;
 }
@@ -147,6 +147,21 @@ h2 {
 .iphone-btn {
     position: absolute;
     right: 210px;
+}
+
+.js-wp-2 {
+    opacity: 0;
+}
+.js-wp-2.animated {
+    opacity: 1;
+}
+
+.js-wp-3 {
+    opacity: 0;
+}
+.js-wp-3.animated {
+    opacity: 1;
+    animation-delay: 2s;
 }
 
 /* IPHONE ANIMATION END */
