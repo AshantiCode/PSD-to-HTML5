@@ -103,6 +103,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
+    /* position: absolute; */
 }
 
 .cta-info {
@@ -120,16 +121,35 @@ h2 {
     margin-bottom: 30px;
 }
 
-.iphone-container {
-    width: 374px;
+.imgs {
+    /* width: 374px; */
+    border: 1px solid blue;
+    position: absolute;
+    right: 1rem;
 }
 
 .iphone {
-    width: 25.75rem;
-    /* width: 85%; */
+    /* width: 25.75rem; */
+    width: 85%;
     position: relative;
     margin-bottom: -240px;
 }
+
+/* IPHONE ANIMATION */
+
+.iphone-on {
+    position: absolute;
+    /* margin-bottom: -205px; */
+    bottom: -66px;
+    width: 18.6rem;
+    left: 74px;
+}
+.iphone-btn {
+    position: absolute;
+    right: 210px;
+}
+
+/* IPHONE ANIMATION END */
 
 .cta-button {
     background-color: #353535;
